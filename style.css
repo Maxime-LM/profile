@@ -1,0 +1,98 @@
+/*texte coulor & font*/
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: #03404c
+
+}
+
+h2 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 800;
+  color: #616664
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #03404c
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  color: #616664
+}
+
+body {
+  background: #efe9f4;
+}
+
+/*MEP*/
+
+.container {
+  width: 650px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  margin: 20px 0px;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.card-white:hover  h2 {
+  text-transform: uppercase;
+
+  }
+
+.list-inline {
+  padding: 0px 20px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  text-align: center;
+  font-size: 50px;
+}
+
+.button {
+  background-color: #ffc65a;
+  border: none;
+  text-decoration: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/*responsive*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 650px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
